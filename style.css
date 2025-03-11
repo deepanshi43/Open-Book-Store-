@@ -1,0 +1,232 @@
+*{
+    margin: 7;
+    padding: 5;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.5;
+    background-color: #f4f4f4;
+    color: #333;
+    
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+       
+       
+
+}
+.header{
+background-color: #333;
+color:#fff;
+padding:7px 0;
+text-align: center;
+
+
+}
+.header h1{
+    margin:7px;
+    color:aqua;
+
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    justify-content:center;
+    padding:7px 0;
+
+}
+nav ul li {
+    margin:0 8px;
+}
+nav ul li a{
+    color:#dedfe3;
+    text-decoration:none;
+    
+}
+nav ul li a:hover{
+    text-decoration:underline;
+}
+
+.main_container{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.left_frame,.right_frame,.centered_frame{
+
+    width:30%;
+    padding:15px;
+    background:#fff;
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0 ,0 ,0,0.1);
+    
+}
+.centered_frame:hover,.left_frame:hover,.right_frame:hover{
+    box-shadow: none;
+}
+.left_frame ul{
+    list-style: none;
+}
+
+.left_frame li{
+    margin:10px 0;
+
+}
+.right_frame{
+    background-color: #dde5eb;
+}
+
+
+
+footer{
+    text-align:center;
+    padding: 10px;
+    background:#333;
+    color:#fff;
+    position:fixed;
+    width:100%;
+    bottom:0;
+}
+
+/* style for catalog page */
+.cataloge-table table{
+    width:100%;
+    border-collapse: collapse;
+
+}
+.cataloge-table th,.cataloge-table td{
+    padding:10px;
+    border:1px solid #ddd;
+    text-align: justify;
+}
+.cataloge-table th{
+    background : #adaaaa;
+}
+.cataloge-table tr:nth-child(even) {
+    background: #a7bed3;
+}
+.cataloge-table tr:nth-child(odd) {
+    background: #dfd7b0;
+}
+.book_image{
+    width: 140px;
+    height: 140px;
+}
+
+
+
+
+/* css for login */
+
+  /* .form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 6px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  label {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+.container1 {
+    display: flex;         
+    justify-content: space-between;
+    align-items: center;     
+    width: 100%;            
+    padding: 10px;          
+    box-sizing: border-box;   
+} */
+.form-container{
+    
+    text-align: center; 
+    margin: 74px ;}
+
+.form-container form{
+  
+    padding: 20px;
+    line-height:3.6;
+}
+   .form-container button{
+    background-color: #32255e;
+    color: white;
+}
+
+
+/* .form-container1{
+    
+    text-align: center; 
+    margin: 4px ;}
+
+.form-container1 form{
+  
+    padding: 20px;
+    line-height:3.6;
+}
+   .form-container1 button{
+    background-color: #32255e;
+    color: white;
+}
+ */
+
+ .form-container1{
+    width: 400px;
+    /* height: 310px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid black 2px; */
+    margin-left: 400px;
+ }
+ 
+ .form-container1 form{
+    /* margin-left: 24px;
+    padding-top: 12px; */
+
+ }
+ .form-group{
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+ }
+ .form-container1 form button{
+    margin-left: 65px;
+    margin-top: 8px;
+    background-color: #333;
+    color: #ddd;
+    border-radius: 2px;
+    font-size: 17px;
+ }
